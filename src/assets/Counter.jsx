@@ -64,5 +64,7 @@ export default function Counter() {
         decrementOnTwo
       </button>
     </div>
+
+    /*si el usuario intenta bajar de 0 que renderize junto al numero el mensaje "el numero no puede ser menor a 0" */
   );
 }
